@@ -29,7 +29,7 @@ header{
     font-size: 80px;
     display: inline-block;
 }
-@keyframes xd{
+@keyframes kolory{
     0%{
         color:rgb(68, 7, 68);
         scale:1;
@@ -76,7 +76,7 @@ header{
     }
 }
 .title>h1{
-    animation-name: xd;
+    animation-name: kolory;
     animation-duration:35s ;
     animation-iteration-count: infinite ;
     font-size: 80px;
@@ -111,7 +111,7 @@ nav >.menu >li{
     padding-top:10px;
     vertical-align: top;
     width: 180px;
-	height: 40px;
+    height: 40px;
 
 }
 nav >ul >li{
@@ -124,8 +124,8 @@ nav > .menu > li > .podMenu{
     overflow: hidden;
     
     padding: 0;
-	margin: 0;
-	height: 0px;
+    margin: 0;
+    height: 0px;
     
     
 }
@@ -142,10 +142,10 @@ nav > .menu > li:hover > .podMenu{
     animation: slide ease 1.5s forwards;
 }
 .podMenu>li{
-	position: relative;
-	z-index: 100;
+    position: relative;
+    z-index: 100;
     width: 200px;
-	height: 40px;
+    height: 40px;
     background-color: cyan;
     transition:all 1s ease-in-out ;
     border-top:2px cadetblue dashed;
