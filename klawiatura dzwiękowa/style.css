@@ -32,47 +32,47 @@ header{
 @keyframes kolory{
     0%{
         color:rgb(68, 7, 68);
-        scale:1;
+        transform:scale(1);
     }
     10%{
         color:red;
-        scale:1.2;
+        
     }
     20%{
         color:orange;
-        scale:1;
+        transform:scale(1.2);
     }
     30%{
         color:yellow;
-        scale:1.2;
+        
     }
     40%{
         color:green;
-        scale:1;
+        transform:scale(1);
     }
     50%{
         color:lightblue;
-        scale:1.2;
+        
     }
     60%{
         color:rgb(0, 217, 255);
-        scale:1;
+        transform:scale(1.2);
     }
     70%{
         color:blue;
-        scale:1.2;
+     
     }
     80%{
         color:pink;
-        scale:1;
+        transform:scale(1);
     }
     90%{
         color:purple;
-        scale:1.2;
+      
     }
     100%{
         color:rgb(68, 7, 68);
-        scale:1;
+        transform:scale(1.2);
     }
 }
 .title>h1{
