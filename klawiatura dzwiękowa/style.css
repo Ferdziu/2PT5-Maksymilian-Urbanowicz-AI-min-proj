@@ -68,11 +68,11 @@ header{
     }
     90%{
         color:purple;
-      
+        transform:scale(1.1);
     }
     100%{
         color:rgb(68, 7, 68);
-        transform:scale(1.2);
+        transform:scale(1);
     }
 }
 .title>h1{
